@@ -1,0 +1,6 @@
+version: '1.0'
+services:
+  app:
+    image: gcr.io/deeplearning-platform-release/tf2-gpu.2-6:latest
+    volumes:
+      - /home/jcarreira/Work/anaguard/Tests/frame-interpolation/:/root/frame-interpolation
